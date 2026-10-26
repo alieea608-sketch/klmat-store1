@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>كلمات ريلز | كلمات المصطفى</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="reels">
+  <header id="site-header"></header>
+
+  <main class="reels-page">
+    <div class="reels-page-heading">
+      <a href="index.html">← العودة للمتجر</a>
+      <h1>🎬 كلمات ريلز</h1>
+      <p>شاهد مقاطع منتجاتنا القصيرة</p>
+    </div>
+
+    <div id="reelsViewer" class="reels-viewer">
+      <p>جارٍ تحميل المقاطع...</p>
+    </div>
+
+    
+<div class="reels-controls">
+  <button id="reelPrev" type="button" aria-label="المقطع السابق" title="السابق">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="m6 15 6-6 6 6" />
+    </svg>
+  </button>
+
+  <button id="reelNext" type="button" aria-label="المقطع التالي" title="التالي">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="m6 9 6 6 6-6" />
+    </svg>
+  </button>
+</div>
+
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase-config.js"></script>
+  <script src="store-api.js"></script>
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

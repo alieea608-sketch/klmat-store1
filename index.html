@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>كلمات المصطفى للاتصالات والتقنية</title>
+  <meta name="description" content="اكتشف الهواتف الذكية والإكسسوارات والحاسبات في متجر كلمات المصطفى للاتصالات والتقنية.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-page="home">
+
+  <!-- الترويسة والسلة ونموذج الطلب -->
+  <div id="site-header"></div>
+
+  <main class="container">
+
+    <!-- بانر العروض الرئيسية -->
+    <section class="promo-slider" id="promoSlider" aria-label="عروض المتجر">
+
+      <article class="promo-slide active" aria-hidden="false">
+        <div class="promo-copy">
+          <span class="promo-kicker">KALIMAT AL-MUSTAFA</span>
+          <h1>كل ما تحتاجه من التقنية في مكان واحد</h1>
+          <p>
+            اكتشف الهواتف الذكية والإكسسوارات والحاسبات
+            واختر المنتجات المناسبة لك.
+          </p>
+          <a href="#categories" class="btn-primary">اكتشف أقسام المتجر ←</a>
+        </div>
+        <div class="promo-art" aria-hidden="true">📱</div>
+      </article>
+
+      <article class="promo-slide" aria-hidden="true">
+        <div class="promo-copy">
+          <span class="promo-kicker">SMART TECHNOLOGY</span>
+          <h2>تقنيتك اليومية تبدأ من هنا</h2>
+          <p>تصفح مجموعة الأجهزة الذكية واختر ما يناسب احتياجاتك.</p>
+          <a href="smart-devices.html" class="btn-primary">تسوق الأجهزة الذكية ←</a>
+        </div>
+        <div class="promo-art" aria-hidden="true">⌚</div>
+      </article>
+
+      <article class="promo-slide" aria-hidden="true">
+        <div class="promo-copy">
+          <span class="promo-kicker">ACCESSORIES & COMPUTERS</span>
+          <h2>أكمل تجربتك التقنية</h2>
+          <p>اكتشف الإكسسوارات والحاسبات ومستلزمات أجهزتك.</p>
+          <a href="accessories.html" class="btn-primary">اكتشف الإكسسوارات ←</a>
+        </div>
+        <div class="promo-art" aria-hidden="true">🎧</div>
+      </article>
+
+      <button class="promo-prev" type="button" aria-label="العرض السابق">›</button>
+      <button class="promo-next" type="button" aria-label="العرض التالي">‹</button>
+
+      <div class="promo-dots" aria-label="اختيار العرض">
+        <button type="button" class="promo-dot active" aria-label="العرض الأول"></button>
+        <button type="button" class="promo-dot" aria-label="العرض الثاني"></button>
+        <button type="button" class="promo-dot" aria-label="العرض الثالث"></button>
+      </div>
+
+      <div class="promo-progress" id="promoProgress"></div>
+    </section>
+
+    <!-- أقسام المتجر -->
+    <section class="home-section" id="categories">
+      <div class="section-head">
+        <div>
+          <span class="section-kicker">تسوق حسب القسم</span>
+          <h2>أقسام المتجر</h2>
+          <p>كل ما تحتاجه من الأجهزة والإكسسوارات في مكان واحد.</p>
+        </div>
+      </div>
+
+      <div class="category-cards" id="catCards"></div>
+    </section>
+
+    
+<!-- الماركات -->
+<section class="home-section brands-section">
+  <div class="section-head">
+    <div>
+      <span class="section-kicker">اختر علامتك المفضلة</span>
+      <h2>تسوق حسب الماركة</h2>
+      <p>اختر الماركة لعرض المنتجات المطابقة لها.</p>
+    </div>
+
+    <button type="button" class="btn-outline" id="showAllBrands">
+      عرض جميع الماركات
+    </button>
+  </div>
+
+  <div class="brands-track" id="brandsTrack">
+
+    <button type="button" class="brand-item active" data-brand="all">
+      <span class="brand-logo brand-all">✦</span>
+      <b>الكل</b>
+    </button>
+
+    <button type="button" class="brand-item" data-brand="apple">
+      <span class="brand-logo">
+        <img src="https://cdn.simpleicons.org/apple/000000"
+             alt="Apple"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="brand-fallback">Apple</span>
+      </span>
+      <b>Apple</b>
+    </button>
+
+    <button type="button" class="brand-item" data-brand="samsung">
+      <span class="brand-logo">
+        <img src="https://cdn.simpleicons.org/samsung/1428A0"
+             alt="Samsung"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="brand-fallback">S</span>
+      </span>
+      <b>Samsung</b>
+    </button>
+
+    <button type="button" class="brand-item" data-brand="honor">
+      <span class="brand-logo">
+        <img src="https://cdn.simpleicons.org/honor/000000"
+             alt="HONOR"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="brand-fallback">HONOR</span>
+      </span>
+      <b>HONOR</b>
+    </button>
+
+    <button type="button" class="brand-item" data-brand="tecno">
+      <span class="brand-logo">
+        <img src="https://cdn.simpleicons.org/tecno/0078D7"
+             alt="TECNO"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="brand-fallback">T</span>
+      </span>
+      <b>TECNO</b>
+    </button>
+
+    <button type="button" class="brand-item" data-brand="zte">
+      <span class="brand-logo">
+        <img src="https://cdn.simpleicons.org/zte/000000"
+             alt="ZTE"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="brand-fallback">ZTE</span>
+      </span>
+      <b>ZTE</b>
+    </button>
+
+    <button type="button" class="brand-item" data-brand="redmi">
+      <span class="brand-logo">
+        <img src="https://cdn.simpleicons.org/xiaomi/FF6900"
+             alt="Redmi"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="brand-fallback">R</span>
+      </span>
+      <b>Redmi</b>
+    </button>
+
+    <button type="button" class="brand-item" data-brand="mi">
+      <span class="brand-logo">
+        <img src="https://cdn.simpleicons.org/xiaomi/FF6900"
+             alt="Xiaomi"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="brand-fallback">mi</span>
+      </span>
+      <b>Xiaomi</b>
+    </button>
+
+    <button type="button" class="brand-item" data-brand="nubia">
+      <span class="brand-logo">
+        <img src="https://cdn.simpleicons.org/nubia/000000"
+             alt="Nubia"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="brand-fallback">N</span>
+      </span>
+      <b>REDMAGIC</b>
+    </button>
+
+  </div>
+</section>
+
+    <!-- أقسام المنتجات في الصفحة الرئيسية -->
+    <div id="homeCategorySections"></div>
+
+<section id="homeReelsSection" class="home-section" hidden>
+  <div class="section-head">
+    <div>
+      <span class="section-kicker">شاهد منتجاتنا</span>
+      <h2>🎬 كلمات ريلز</h2>
+      <p>مقاطع قصيرة لأحدث المنتجات</p>
+    </div>
+    <a class="home-more-btn" href="reels.html">مشاهدة الكل ←</a>
+  </div>
+  <div id="homeReelsTrack" class="reels-strip"></div>
+</section>
+
+
+  </main>
+
+  
+  <!-- تذييل الموقع -->
+  <div id="site-footer"></div>
+  <!-- مكتبة Supabase -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+  <!-- إعدادات الاتصال بقاعدة البيانات -->
+  <script src="supabase-config.js"></script>
+
+  <!-- وظائف قاعدة البيانات والتخزين -->
+  <script src="store-api.js"></script>
+
+  <!-- بيانات المتجر والتشغيل -->
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
