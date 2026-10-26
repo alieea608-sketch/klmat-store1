@@ -4,8 +4,8 @@
 ===================================== */
 
 const STORE = {
-  name: "كلمات المصطفى للاتصالات والتقنية",
-  phone: "9647XXXXXXXXX",
+  name: "كلمات المصطفى للاتصالات ",
+  phone: "07760986035",
 
   homeGov: "كربلاء",
   karbalaFee: 5000,
@@ -206,7 +206,7 @@ const PRODUCTS = [
     badge: "",
     rating: 4.2,
     desc: "شاحن للاستخدام اليومي. تحقق من توافقه مع جهازك.",
-    emoji: "🔌",
+    emoji: "",
     images: [
       "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=700&q=85"
     ],
