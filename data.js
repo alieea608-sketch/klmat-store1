@@ -42,38 +42,38 @@ const CATEGORIES = {
   smart: {
     title: "الأجهزة الذكية",
     desc: "الموبايلات والأجهزة الذكية",
-    icon: "📱",
+    icon: "",
     file: "smart-devices.html",
     filters: [
-      { key: "موبايلات", label: "الموبايلات", icon: "📱" },
-      { key: "تابلتات", label: "التابلتات", icon: "📟" },
-      { key: "ساعات", label: "الساعات", icon: "⌚" },
-      { key: "سماعات", label: "السماعات", icon: "🎧" }
+      { key: "موبايلات", label: "الموبايلات", icon: "" },
+      { key: "تابلتات", label: "التابلتات", icon: "" },
+      { key: "ساعات", label: "الساعات", icon: "" },
+      { key: "سماعات", label: "السماعات", icon: "" }
     ]
   },
 
   accessories: {
     title: "الإكسسوارات",
     desc: "إكسسوارات وملحقات الأجهزة",
-    icon: "🎧",
+    icon: "",
     file: "accessories.html",
     filters: [
-      { key: "حافظات", label: "الحافظات", icon: "📱" },
-      { key: "سماعات", label: "السماعات", icon: "🎧" },
-      { key: "شواحن", label: "الشواحن", icon: "🔌" }
+      { key: "حافظات", label: "الحافظات", icon: "" },
+      { key: "سماعات", label: "السماعات", icon: "" },
+      { key: "شواحن", label: "الشواحن", icon: "" }
     ]
   },
 
   computers: {
     title: "الحاسبات",
     desc: "الحاسبات ومستلزماتها",
-    icon: "💻",
+    icon: "",
     file: "computers.html",
     filters: [
-      { key: "لابتوبات", label: "اللابتوبات", icon: "💻" },
-      { key: "تجميعات", label: "التجميعات", icon: "🖥️" },
-      { key: "شاشات", label: "الشاشات", icon: "🖥️" },
-      { key: "تخزين", label: "التخزين", icon: "💾" }
+      { key: "لابتوبات", label: "اللابتوبات", icon: "" },
+      { key: "تجميعات", label: "التجميعات", icon: "" },
+      { key: "شاشات", label: "الشاشات", icon: "" },
+      { key: "تخزين", label: "التخزين", icon: "" }
     ]
   }
 };
@@ -112,7 +112,7 @@ const PRODUCTS = [
     badge: "مميز",
     rating: 4.8,
     desc: "هاتف ذكي بتصميم أنيق وأداء مميز.",
-    emoji: "📱",
+    emoji: "",
     images: [
       "https://images.unsplash.com/photo-1511709268805-153c9b7e1e3b?auto=format&fit=crop&w=700&q=85"
     ],
@@ -136,7 +136,7 @@ const PRODUCTS = [
     badge: "",
     rating: 4.6,
     desc: "هاتف ذكي للاستخدام اليومي والعمل والترفيه.",
-    emoji: "📱",
+    emoji: "",
     images: [
       "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=700&q=85"
     ],
@@ -160,7 +160,7 @@ const PRODUCTS = [
     badge: "مميز",
     rating: 4.5,
     desc: "ساعة ذكية بتصميم عصري للاستخدام اليومي.",
-    emoji: "⌚",
+    emoji: "",
     images: [
       "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=85"
     ],
@@ -183,7 +183,7 @@ const PRODUCTS = [
     badge: "",
     rating: 4.4,
     desc: "سماعات للاستماع إلى الموسيقى والمكالمات.",
-    emoji: "🎧",
+    emoji: "",
     images: [
       "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=85"
     ],
@@ -229,7 +229,7 @@ const PRODUCTS = [
     badge: "",
     rating: 4.1,
     desc: "حافظة لحماية الهاتف. تحقق من توافقها مع موديل جهازك.",
-    emoji: "📱",
+    emoji: "",
     images: [
       "https://images.unsplash.com/photo-1601593346740-925612772716?auto=format&fit=crop&w=700&q=85"
     ],
@@ -251,7 +251,7 @@ const PRODUCTS = [
     badge: "مميز",
     rating: 4.7,
     desc: "حاسوب محمول للدراسة والعمل والاستخدام اليومي.",
-    emoji: "💻",
+    emoji: "",
     images: [
       "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=700&q=85"
     ],
@@ -276,7 +276,7 @@ const PRODUCTS = [
     badge: "",
     rating: 4.3,
     desc: "شاشة للاستخدام المكتبي والدراسة.",
-    emoji: "🖥️",
+    emoji: "",
     images: [
       "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=700&q=85"
     ],
